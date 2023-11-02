@@ -1,0 +1,535 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: none;
+    text-decoration: none;
+    font-family:;
+      
+
+}
+   
+
+.container-1 h3{
+    font-size: 50px;
+    line-height: 1.5;
+}
+.container-1 p{
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+
+.photostyle{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+        
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    padding: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black
+            
+}
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-style: italic;
+}
+nav li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+nav ul li a{
+    color: whitesmoke;
+    padding: 20px;
+}
+.buttonstyle{
+    margin-right: 25px;
+    background-color: gray;
+    color: whitesmoke;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    
+}
+.buttonstyle:hover{
+    background-color: blue;
+    color: yellow;
+    cursor: pointer;
+    }
+    .textdeco:hover{
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    /*mainarea*/
+    main{
+       background: url('Image/handsome-man-barber-shop-styling-hair.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+        height:850px;
+        
+    }
+/*Hero area*/
+.container-1{
+    position: relative;
+    top:250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    margin-left: 40px;
+    width: 550px;
+    line-height: 2;
+    text-align: center;
+
+}   
+
+
+
+/*button*/
+.btntrt{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    color: black;
+    border: transparent;
+    font-size: 15px;
+    
+}
+.readmore{
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+    color:whitesmoke;
+    border: solid 2px;
+    background-color:transparent;
+    font-size: 15px;
+    background-color: none 
+    ;
+    
+}
+.ctr-btn{
+    
+    position: relative;
+    top: 20px;
+    height: 40px;
+    width: 120px;
+       font-size: 20px;
+       border-radius: 20px;
+    
+    
+}
+
+.maincontainer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+    justify-content:center;
+    
+
+}
+/*bannerstyle area*/
+/*child-1 start*/
+.child-1{
+    line-height: 1.2;
+    background:url('Image/hair\ cutting.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 750px;
+    background-color: #000000;
+    margin-right: 10px;
+    
+}
+.fontsize{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding: 05px;
+}
+.haircut{
+    position: relative;
+    bottom: 30px;
+    font-size: 40px;
+
+}
+.moreinfo{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 15px;
+   border-color: whitesmoke;
+    background-color: transparent;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+}
+/*child-1 end*/
+/*child-2 start*/
+.child-2{
+    line-height: 1.2;
+    background:url('Image/hair\ coloring.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 750px;
+    background-color: #000000;
+        margin-right: 10px;
+}
+.fontsize{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding: 05px;
+}
+.haircut{
+    position: relative;
+    bottom: 30px;
+    font-size: 40px;
+
+}
+.moreinfo{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 15px;
+   border-color: whitesmoke;
+    background-color: transparent;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+}
+/*child-2 end*/
+/*child-3 start*/
+.child-3{
+    line-height: 1.2;
+    background: url('Image/hair\ styling.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 750px;
+    background-color: #000000;
+    margin-right: 10px;
+}
+.fontsize{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding: 05px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.haircut{
+    position: relative;
+    bottom: 30px;
+    font-size: 40px;
+
+}
+.moreinfo{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 15px;
+   border-color: whitesmoke;
+    background-color: transparent;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+}
+/*child-3 end*/
+/*child-4 start*/
+.child-4{
+    line-height: 1.2;
+    background:url('Image/Hair\ talk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 750px;
+    background-color: #000000;
+    margin-right: 40px;
+}
+.fontsize{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding: 05px;
+}
+.haircut{
+    position: relative;
+    bottom: 30px;
+    font-size: 40px;
+
+}
+.moreinfo{
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 15px;
+   border-color: whitesmoke;
+    background-color: transparent;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+}
+/*child-4 end*/
+
+/*mainheroarea*/
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 150px;
+    
+
+}
+.leftarea img{
+    height: 600px;
+    width: 800px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+}
+.rightarea{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 300px;
+    width: 600px;
+    align-items: center;
+line-height: 1.5;
+position: relative;
+right: 50px;  
+top: 150px; 
+    
+}
+.rightarea h1{
+    font-size: 60px;
+}
+.parafont {
+    font-size: 25px;
+}
+/*container-3 area*/
+.container-3{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+    left: 20px;
+    right: 20px;
+    height: 450px;
+    width: 98%;
+    background-color:#CDFAD5;
+    
+}
+.container-3 p{
+    font-size: 20px;
+    
+}
+.booktime{
+
+    position: relative;
+    top: 20px;
+    left: 40px;
+    height: 400px;
+    width: 400px;
+    line-height: 2;
+
+    
+}
+.ctr-3-online{
+    position: relative;
+    top: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+.ctr-3-btn{
+    position: relative;
+    top: 30px;
+    height: 50px;
+    width: 200px;
+       font-size: 20px;
+       border-radius: 20px;
+
+}
+.openinghours{
+    position: relative;
+    top: 20px;
+left: 20px;
+    line-height: 2;
+    height: 400px;
+    width: 400px;
+}
+.openinghours ul li{list-style: none;
+    font-size: 18px;
+}
+.openinghours p{}
+.freewifi{
+    position: relative;
+    top: 20px;
+    line-height: 2;
+    height: 400px;
+    width: 400px;
+}
+/* footer*/
+footer{
+    position: relative;
+    top: 200px;
+        
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 1 80px;
+width: 100%;
+background-color: black;
+color: whitesmoke;    
+}
+
+footer ul li a {
+color: whitesmoke;
+}
+.contactlist{
+list-style: none;
+line-height: 1.5;
+
+}
+.links{
+list-style: none;
+line-height: 1.5;
+}
+.post{
+list-style: none;
+line-height: 1.5;
+}
+.leftarea-1{
+margin-left: 170px;
+}
+.newsletter{
+line-height: 1.5;
+
+
+}
+.btn{
+height: 30px;
+width: 60px;
+border-radius: 05px;
+}
+.inouttext{
+height: 30px;
+width: 200px;
+border-radius: 05px;
+}
+.btn:hover{
+color: whitesmoke;
+background-color: blue;
+cursor: pointer;
+}
+.contactlist li a:hover{
+background-color: white;
+color: black;
+}
+.links li a:hover{
+background-color: white;
+color: black;}
+
+.post li a:hover{
+    background-color: white;
+    color: black;}
+/*footer bottom*/
+.footerbottom{
+background-color: black;
+border-top: gray;
+text-align: center;
+color: whitesmoke;
+font-size: 20px;
+}
+/*social media*/
+.socialmedia img  {
+background-color:white;
+color: white;
+position: relative;
+top: 20px;
+
+}
+a img:hover{
+    background-color:yellow;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+/*mobile first resposive design*/
+    @media(min-width:675px){
+        {flex-direction:col;
+        justify-content: space-between;}
+           
+
+
+ 
+
+
